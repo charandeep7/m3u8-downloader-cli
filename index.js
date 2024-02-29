@@ -13,11 +13,11 @@ function downloadVideo(url, outputName, outputPath) {
 
   const childProcess = spawn(ffmpegCommand, {
     shell: true,
-    detached: true, // Detach the child process from the parent
-    stdio: "ignore" // Ignore the standard I/O streams
+    detached: true, 
+    stdio: "ignore" 
   });
 
-  childProcess.unref(); // Unreference the child process to allow the parent to exit independently
+  childProcess.unref(); 
 }
 
 function promptUser() {
