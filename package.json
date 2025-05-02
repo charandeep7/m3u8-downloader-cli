@@ -9,6 +9,7 @@
   "author": "KITISH",
   "license": "ISC",
   "dependencies": {
+    "fluent-ffmpeg": "^2.1.3",
     "glowing-engine": "^1.0.4"
   }
 }
